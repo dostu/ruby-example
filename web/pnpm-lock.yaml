@@ -6,7 +6,7 @@ settings:
 
 importers:
 
-  frontend:
+  .:
     dependencies:
       '@formatjs/intl-locale':
         specifier: ^3.3.2
