@@ -7,7 +7,6 @@ if [ -f /app/tmp/pids/server.pid ]; then
   rm -f /app/tmp/pids/server.pid
 fi
 
-bin/rails db:create
 bin/rails db:migrate
 
 exec "$@"
